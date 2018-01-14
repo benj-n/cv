@@ -44,8 +44,8 @@ body {
 	margin-left: -50px;
 	padding-left: 50px;
 	text-shadow: 1px 1px 0px #111;
-	background-color: #6CC4FF;	
-	border: 1px solid #4C89B2;	
+	background-color: #6CC4FF;
+	border: 1px solid #4C89B2;
 }
 
 #contact{
@@ -102,14 +102,14 @@ em {
 .company{
 	font-size: 0.9em;
 	clear: both;
-	
+
 }
 .date{
 	display: inline;
 	color: #888;
 	text-transform: capitalize;
 	margin-left: 20px;
-	font-size: 0.9em;	
+	font-size: 0.9em;
 	font-weight: normal;
 	font-variant: small-caps;
 }
@@ -126,7 +126,7 @@ em {
 </head>
 <body>
 <div id="header">
-	
+
 </div>
 
 <div id="colonne_g">
@@ -145,39 +145,60 @@ em {
 </div>
 
 <div id="colonne_d">
-	
+
 
 
 	<div id="resume" class="bulle">
 		<div class="ruban">
 			Resum&eacute;
-		</div>
-		<p>Administrateur syst&egrave;me certifi&eacute; avec une bonne exp&eacute;rience en GNU/Linux (s&eacute;curit&eacute;, virtualisation, haute-disponibilit&eacute;, stockage), en surveillance (Nagios), en rapports (Graphite, Logstash) et en automatisation (Puppet).<br />Architecture et gestion d'infrastructure pour le d&eacute;ploiement de sites transactionnels (Jboss), de serveurs corporatifs (Oracle/MySQL), et de cloud public (Openstack).</p>
+    </div>
+      <p>Administrateur syst&egrave;me certifi&eacute; avec une bonne exp&eacute;rience en GNU/Linux (s&eacute;curit&eacute;, virtualisation, haute-disponibilit&eacute;, stockage), en surveillance (Nagios/Icinga2), en rapports (Graphite, Logstash) et en automatisation (Puppet).<br />Architecture et gestion d'infrastructure pour le d&eacute;ploiement de sites transactionnels (Jboss), de serveurs corporatifs (Oracle/MySQL), et de cloud public (Openstack).</p>
 	</div>
 
 	<div id="experience" class="bulle">
 		<div class="ruban">
 			Exp&eacute;rience
 		</div>
-		
+
 			<div class="position">Cloud Platform and Engineering Specialist <div class="date">depuis novembre 2015</div> </div>
-			<div class="company">Internap</div>
+			<div class="company">INAP</div>
 			<ul>
-				<li>Administration d'un cloud public Openstack et de solutions d'infrastructures redondantes basées sur produits libres.</li>
+        <li>Architecture et d&eacute;ploiement d'environnements r&eacute;partis dans diff&eacute;rentes r&eacute;gions du monde et majoritairement bas&eacute;s sur <em>Ubuntu 14.04</em> et <em>16.04</em></li>
+        <li>Gestion de l'automatisation du cycle de vie des produits fabriqu&eacute;s par les d&eacute;veloppeurs au sein du d&eacute;partement d'ing&eacute;nierie.
+          <ul>
+            <li>Gestion des configurations: <em>Puppet</em>, <em>Ansible</em></li>
+            <li>Gestion des versions: <em>GitHub Enterprise</em></li>
+            <li>Int&eacute;gration continue: <em>Gerrit</em>, <em>Zuul</em>, <em>Jenkins</em></li>
+          </ul>
+        </li>
+        <li>Administration du produit de cloud public (AgileCloud) bas&eacute; sur <em>Openstack</em> : <em>Nova</em>, <em>Neutron</em>, <em>Keystone</em>, <em>Cinder</em>, <em>Glance</em>, <em>Swift</em></li>
+        <li>Administration du produit de cloud public 'bare-metal' (AgileServer) bas&eacute; sur <em>Openstack Ironic</em></li>
+        <li>Administration des solutions de stockage iSCSI <em>NetApp Solidfire</em> en lien avec <em>Openstack Cinder</em></li>
+        <li>Gestion des plateformes internes :
+          <ul>
+            <li>virtualisation : <em>Xen Server</em></li>
+            <li>base de donn&eacute;es : <em>MySQL</em> (<em>DRBD</em> ou <em>Galera</em>), <em>Mongo</em>, <em>Redis</em></li>
+            <li>bus de messages: <em>RabbitMQ</em></li>
+            <li>monitoring : <em>Shinken</em>, <em>SNMP</em>, <em>Icinga2</em>, <em>Graphite</em></li>
+            <li>facturation, inventaire, support : <em>Ubersmith</em></li>
+            <li>journaux : <em>ElasticSearch</em>, <em>Logstash</em>, <em>Kibana</em></li>
+          </ul>
+        </li>
+        <li>Objectif g&eacute;n&eacute;ral : l'automatisation totale des syst&egrave;mes pour garder le contr&ocirc;le de plateformes toujours plus grandes, avec des &eacute;quipes comportant un nombre de personnes restreint</li>
 			</ul>
-		
+
 			<div class="position">Analyste GNU/Linux <div class="date">f&eacute;vrier 2010 - octobre 2015</div> </div>
 			<div class="company">Loto Qu&eacute;bec</div>
 			<ul>
-				<li>Architecture et d&eacute;ploiement d'environnements bas&eacute;s sur <em>RedHat5</em>, <em>RedHat6</em> sur x86 et HP-UX 11iv3/Oracle/ServiceGuard sur 'Integrity'.</li>
-				<li>D&eacute;ploiement des outils de gestion de configurations <em>Puppet</em>, <em>Hiera</em> et <em>Git</em>. Mise en place et entretien des manifestes.</li>
-				<li>D&eacute;ploiement des outils de surveillance <em>Nagios</em> et <em>CollectD</em>. Installation d'une solution de visualisation des donn&eacute;es m&eacute;triques en temps r&eacute;el avec <em>Graphite</em> et <em>Grafana</em>.</li>
+				<li>Architecture et d&eacute;ploiement d'environnements bas&eacute;s sur <em>RedHat5</em>, <em>RedHat6</em> sur x86 et HP-UX 11iv3/Oracle/ServiceGuard sur les s&eacute;ries de serveurs 'Integrity'.</li>
+				<li>D&eacute;ploiement des outils de gestion de configurations et gestion de versions <em>Puppet</em>, <em>Hiera</em> et <em>Git</em>. Mise en place et entretien des manifestes.</li>
+				<li>D&eacute;ploiement des outils de surveillance <em>Nagios</em> (<em>Nrpe</em>) et <em>CollectD</em>. Installation d'une solution de visualisation des donn&eacute;es m&eacute;triques en temps r&eacute;el avec <em>Graphite</em> et <em>Grafana</em>.</li>
 				<li>Architecture et installation d'une solution de gestion des journaux avec <em>Logstash</em>, <em>Elasticsearch</em> et <em>Kibana</em>.</li>
 				<li>D&eacute;ploiement et entretien du syst&egrave;me de <em>casino en ligne</em> (plateforme propri&eacute;taire en Tcl), des outils intergiciels (<em>Jboss EAP5</em> et <em>EAP6</em>) et des syst&egrave;mes h&eacute;bergeant les SGBD <em>Oracle</em> et <em>MySQL</em>.</li>
 				<li>D&eacute;ploiement de l'outil d'inventaire <em>GLPI</em> ainsi que d'une passerelle entre les syst&egrave;mes internes de gestion de configurations et l'agent d'auto-d&eacute;couverte <em>FusionInventory</em>.</li>
 				<li>Diverses mise en place d'outils pour des &eacute;quipes externes (<em>Iteraplan</em>, <em>Magnolia CMS</em>, <em>OpenX Source</em>).</li>
 			</ul>
-			
+
 			<div class="position">Admin. Senior des syst&egrave;mes de sauvegarde <div class="date">avril 2007 - f&eacute;v. 2010</div></div>
 			<div class="company">CGI</div>
 			<ul>
@@ -185,19 +206,19 @@ em {
 				<li>Administration et migrations des &eacute;quipements d'infrastructure (Librairie de cassettes <em>TS3500/TS3400</em>, Lecteurs <em>LTO/3492</em>)</li>
 				<li>Surveillance et rapports (scripts, <em>Rocket ServerGraph</em>)</li>
 			</ul>
-			
+
 			<div class="position">Autoformation D&eacute;veloppement Web <div class="date">novembre 2006 - avril 2007</div></div>
 			<div class="company"></div>
 			<ul>
 				<li>Administration de syst&egrave;mes <em>Debian</em> et autoformation en d&eacute;veloppement web</li>
 			</ul>
-			
+
 			<div class="position">Technicien de support <div class="date">2003</div></div>
 			<div class="company">Mobilway</div>
 			<ul>
 				<li>Support aux clients corporatifs, r&eacute;solution des probl&egrave;mes, mise en relation avec les &eacute;quipes sp&eacute;cialis&eacute;es internes si n&eacute;cessaire, dans le domaine des messages textes via t&eacute;l&eacute;phones cellulaires (plateforme d'interconnexion clients/fournisseurs sur protocole SS7).</li>
 			</ul>
-			
+
 	</div>
 
 	<div id="certification" class="bulle">
@@ -222,7 +243,7 @@ em {
 		<div class="formationname">Ecole Sup&eacute;rieure d'Ing&eacute;nieurs en G&eacute;nie &eacute;lectrique<div class="date">2001 - 2003</div></div>
 		<ul>
 			<li>R&eacute;seaux et Services de T&eacute;l&eacute;communication</li>
-		</ul>		
+		</ul>
 		<div class="formationname">Universit&eacute; Paul Sabatier (Toulouse III)<div class="date">1999 - 2001</div></div>
 		<ul>
 			<li>Physique, Chimie, Sciences de l'Ing&eacute;nieur</li>
